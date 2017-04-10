@@ -16,3 +16,19 @@ generator:
     - "description": "Playground for Rugs used when exploring the concepts in the Antifragile Software Book."
     - "version": "0.1.0"
 
+---
+kind: "operation"
+client: "atomist-bot"
+editor:
+  name: "AddTypeScriptGenerator"
+  group: "atomist-rugs"
+  artifact: "rug-editors"
+  version: "0.24.0"
+  origin:
+    repo: "https://github.com/atomist-rugs/rug-editors.git"
+    branch: "cff978c59d1635572a8de584f1a1daad5e8d7a68"
+    sha: "cff978c"
+  parameters:
+    - "generatorName": "BasicMavenProject"
+    - "description": "Generates a basic maven project."
+
